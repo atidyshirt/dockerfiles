@@ -1,106 +1,106 @@
 version: "3.8"
 services:
   bashls:
-    image: lspcontainers/bash-language-server
+    image: atidyshirt/bash-language-server
     build:
       context: servers/bashls
 
   clangd:
-    image: lspcontainers/clangd-language-server
+    image: atidyshirt/clangd-language-server
     build:
       context: servers/clangd
 
   dockerls:
-    image: lspcontainers/docker-language-server
+    image: atidyshirt/docker-language-server
     build:
       context: servers/dockerls
 
   graphql-lsp:
-    image: lspcontainers/graphql-language-service-cli
+    image: atidyshirt/graphql-language-service-cli
     build:
       context: servers/graphql-lsp
 
   gopls:
-    image: lspcontainers/gopls
+    image: atidyshirt/gopls
     build:
       context: servers/gopls
 
   html:
-    image: lspcontainers/html-language-server
+    image: atidyshirt/html-language-server
     build:
       context: servers/html
 
   intelephense:
-    image: lspcontainers/intelephense
+    image: atidyshirt/intelephense
     build:
       context: servers/intelephense
 
   jsonls:
-    image: lspcontainers/json-language-server
+    image: atidyshirt/json-language-server
     build:
       context: servers/jsonls
 
   omnisharp:
-    image: lspcontainers/csharp-language-server
+    image: atidyshirt/csharp-language-server
     build:
       context: servers/omnisharp
 
   powershell_es:
-    image: lspcontainers/powershell-language-server
+    image: atidyshirt/powershell-language-server
     build:
       context: servers/powershell_es
 
   prisma:
-    image: lspcontainers/prisma-language-server
+    image: atidyshirt/prisma-language-server
     build:
       context: servers/prisma
 
   pylsp:
-    image: lspcontainers/python-lsp-server
+    image: atidyshirt/python-lsp-server
     build:
       context: servers/pylsp
 
   pyright:
-    image: lspcontainers/pyright-langserver
+    image: atidyshirt/pyright-langserver
     build:
       context: servers/pyright
 
   rust_analyzer:
-    image: lspcontainers/rust-analyzer
+    image: atidyshirt/rust-analyzer
     build:
       context: servers/rust_analyzer
 
   sumneko_lua:
-    image: lspcontainers/lua-language-server
+    image: atidyshirt/lua-language-server
     build:
       context: servers/sumneko_lua
 
   svelteserver:
-    image: lspcontainers/svelte-language-server
+    image: atidyshirt/svelte-language-server
     build:
       context: servers/svelteserver
 
   tailwindcss:
-    image: lspcontainers/tailwindcss-language-server
+    image: atidyshirt/tailwindcss-language-server
     build:
       context: servers/tailwindcss
 
   terraformls:
-    image: lspcontainers/terraform-ls
+    image: atidyshirt/terraform-ls
     build:
       context: servers/terraformls
 
   tsserver:
-    image: lspcontainers/typescript-language-server
+    image: atidyshirt/typescript-language-server
     build:
       context: servers/tsserver
 
   yamlls:
-    image: lspcontainers/yaml-language-server
+    image: atidyshirt/yaml-language-server
     build:
       context: servers/yamlls
 
   vuels:
-    image: lspcontainers/vue-language-server
+    image: atidyshirt/vue-language-server
     build:
       context: servers/vuels
